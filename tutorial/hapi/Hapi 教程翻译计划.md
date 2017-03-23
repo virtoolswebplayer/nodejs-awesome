@@ -13,16 +13,16 @@ HAPI 的插件系统非常的强大， 通过组合其生态系统的各种插�
 # Hapi 教程概览
 
 - hapi
-    - Hapi — Get Your Server Up and Running
-    - 2017年成为一个更好的开发者
+    - Hapi — 创建一个服务并启动它
+    - 2017年成为一个更好的开发者
 - Views
-    - View in Hapi 9 (and above)
-    - How to Render and Reply Views
-    - How to Create Dynamic Handelbars Layout Template
+    - Hapi 9 及之后版本中的视图页面(View)
+    - 如何渲染并响应一个视图页面(View)
+    - 如何使用Handlebar创建一个动态布局模板
 - 权限验证
     - 基本验证通过用户名和密码
     - 通过Cookie实现 `记住我`
-    - 如何设备一个默认的验证方案
+    - 如何设置一个默认的 验证方案
     - 为路由定义多个验证策略
 - 路由
     - 路由分发处理
@@ -36,13 +36,13 @@ HAPI 的插件系统非常的强大， 通过组合其生态系统的各种插�
     - 如何为一个Server实例 注册插件
 - 服务
     - 如何在一个项目里同时运行一个前端服务和一个后端服务
-    - Hapi — How to Use Server Labels
-    - How to Correctly Stop Your Server and Close Existing Connections
-    - Zero-Downtime Deployments Using PM2
+    - Hapi — 使用服务标签(Server Lable)
+    - 如何正确的停止服务器并且关闭连接
+    - 使用 PM2 实现 「零停机」部署
 - 日志
-    - Hapi — Report Errors to Sentry
-    - Don't Report to Sentry in Development Mode
-    - Logging Fundamentals
+    - Hapi — 错误报告
+    - 开发模式下不上报错误
+    - 关于日志的一些基本知识
 - 请求 Requests
     -
 - 响应 Responses
@@ -52,5 +52,3 @@ HAPI 的插件系统非常的强大， 通过组合其生态系统的各种插�
     - 使用Joi较验 查询参数 query
     - 使用Joi较验 路由参数 params
     - 使用Joi较验 payload
-
-
